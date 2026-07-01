@@ -1,33 +1,28 @@
-h1 {
+ @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Yuyu&display=swap');
 
-    color: rgb(0, 0, 0);
+    p {
+     font-family: "Nabla", system-ui;
+    }
 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: aquamarine;
+    span {
+      font-weight: bold;
+    }
 
-    margin-top: auto;
-    margin-left: 50%;
+    .ital {
+      font-style: italic;
+      font-weight: bold;
+    }
+    .ital:hover{
+      color: brown;
+      font-size: 50px;
+    }
+    .box{
+      background-color: blue;
+    }
+    .currentline{
+      display: inline;
 
-
-}
-
-
-nav {
-
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-
-
-}
-
-
-#saman {
-
-
-
-    color: rgb(155, 155, 155);
-
-    font-size: 90%;
-}
+    }
+    .newline{
+        display: inline;
+    }
