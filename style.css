@@ -49,7 +49,7 @@
  }
 
  .pedding-2{
-    background-color: aqua;
+   
     widith 90px
  }
  .cal{
@@ -61,3 +61,21 @@
 
 
  }
+
+ nav a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    color: red;
+    transition: font-size 0.5s ease;
+ }
+
+nav a:hover{
+    font-size: 50px;
+
+}
+
+.left{
+    text-align: right;
+    background-color: aqua;
+}
