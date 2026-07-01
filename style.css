@@ -1,28 +1,39 @@
- @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Yuyu&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nabla&family=Yuyu&display=swap');
 
-    p {
-     font-family: "Nabla", system-ui;
-    }
+ p {
+     font-family: "Yuyu", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
 
-    span {
-      font-weight: bold;
-    }
+ span {
+     font-weight: bold;
+ }
 
-    .ital {
-      font-style: italic;
-      font-weight: bold;
-    }
-    .ital:hover{
-      color: brown;
-      font-size: 50px;
-    }
-    .box{
-      background-color: blue;
-    }
-    .currentline{
-      display: inline;
+ .ital {
+     font-style: italic;
+     font-weight: bold;
+ }
 
-    }
-    .newline{
-        display: inline;
-    }
+ .ital:hover {
+     color: brown;
+     font-size: 50px;
+ }
+
+ .box {
+     background-color: blue;
+ }
+
+ .currentline {
+     display: inline;
+
+ }
+
+ .newline {
+     display: inline;
+ }
+
+ .left {
+     float: right;
+
+ }
